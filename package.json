@@ -5,14 +5,12 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "npx tsc-watch --onSuccess 'npx @google-cloud/functions-framework --target=helloWorld'",
-    "deploy": "npx tsc && gcloud deploy helloWorld --runtime nodejs10 --trigger-http"
+    "deploy": "npx tsc && gcloud functions deploy helloWorld --runtime nodejs10 --trigger-http"
   },
   "keywords": [
     "Typescript",
     "Template",
-    "Google",
-    "Cloud",
-    "Function",
+    "Google Cloud Functions",
     "GCF",
     "functions",
     "serverless"
