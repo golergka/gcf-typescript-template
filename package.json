@@ -1,7 +1,8 @@
 {
   "name": "gcf-typescript-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A template for Google Cloud Functions project that uses Typescript.",
+  "repository": "golergka/gcf-typescript-template",
   "main": "dist/index.js",
   "scripts": {
     "start": "npx tsc-watch --onSuccess 'npx @google-cloud/functions-framework --target=helloWorld'",
