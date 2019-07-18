@@ -4,7 +4,7 @@
   "description": "A template for Google Cloud Functions project that uses Typescript.",
   "main": "dist/index.js",
   "scripts": {
-    "start": "npx tsc-watch --onSuccess 'npx @google-cloud/functions-framework --target=helloWorld",
+    "start": "npx tsc-watch --onSuccess 'npx @google-cloud/functions-framework --target=helloWorld'",
     "deploy": "npx tsc && gcloud deploy helloWorld --runtime nodejs10 --trigger-http"
   },
   "keywords": [
